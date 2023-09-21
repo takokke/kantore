@@ -1,0 +1,17 @@
+{
+
+    "manifest_version": 3,
+    "name": "cheetah",
+    "version": "1.0",
+  
+    "description": "cheat_btn",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://lines-drill.education.ne.jp/ipu/standard/PC/original-question/*"],
+        "js": ["./play.js"]
+      }
+    ]
+  
+  }
+  
